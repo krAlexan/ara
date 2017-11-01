@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow: hidden; }
+
+nav {
+  min-height: 75px; }
+
+.header {
+  width: 45%;
+  margin: 0 auto; }
+
+h1 {
+  font-size: 2rem;
+  margin: 0; }
+
+img, .info, .info1, .info2, .info3, .info4, .info5, .contacts {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.saturn:hover .contacts, .sun:hover .contacts, .earth:hover .contacts,
+.mars:hover .contacts, .venera:hover .contacts, .mercury:hover .contacts {
+  font-size: 1.8vw; }
+
+.saturn:hover .info {
+  border-top: 3px solid lightgray;
+  border-left: 3px solid lightgray;
+  width: 39%;
+  height: 25%; }
+
+.sun:hover .info1 {
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  width: 31%;
+  height: 12%; }
+
+.earth:hover .info2 {
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  height: 10%;
+  width: 37%; }
+
+.mars:hover .info3 {
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  height: 25%;
+  width: 135%; }
+
+.venera:hover .info4 {
+  border-bottom: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  height: 70%;
+  width: 272%; }
+
+.mercury:hover .info5 {
+  border-top: 3px solid lightgray;
+  border-left: 3px solid lightgray;
+  height: 17%;
+  width: 150%; }
+
+.earth .contacts {
+  -webkit-animation: move 1s linear forwards;
+  animation: move 1s linear forwards; }
+
+.saturn .contacts {
+  -webkit-animation: move 1.2s linear forwards;
+  animation: move 1.2s linear forwards; }
+
+@-webkit-keyframes move {
+  from {
+    width: 0%; }
+  to {
+    width: 100%; } }
+
+.wrap {
+  position: absolute;
+  top: -10%;
+  left: -3%; }
+
+.contacts {
+  -webkit-animation: move 0.5s linear forwards;
+  animation: move 0.5s linear forwards;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  border-right: 0.5vw solid lightgray;
+  color: white;
+  text-align: left;
+  line-height: 100%;
+  font-size: 1.5vw;
+  overflow: hidden; }
+
+.info1 {
+  position: absolute;
+  top: -2%;
+  height: 13%;
+  width: 35%;
+  border-top: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+/*sun*/
+.wrap_saturn {
+  position: absolute;
+  left: 88%;
+  top: -34%; }
+
+.info {
+  position: absolute;
+  top: -13%;
+  left: 77%;
+  height: 30%;
+  width: 37%;
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  -webkit-transform: skewX(-50deg);
+  -ms-transform: skewX(-50deg);
+  transform: skewX(-50deg); }
+
+/*saturn*/
+.wrap_earth {
+  position: absolute;
+  top: 17%;
+  left: -22%; }
+
+.info2 {
+  position: absolute;
+  top: 26%;
+  left: -18%;
+  height: 12%;
+  width: 35%;
+  border-top: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+/*earth*/
+.wrap_mars {
+  position: absolute;
+  top: -20%;
+  left: -148%; }
+
+.info3 {
+  position: absolute;
+  left: -136%;
+  height: 28%;
+  width: 130%;
+  border-top: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+.wrap_venera {
+  position: absolute;
+  top: 100%;
+  left: -306%; }
+
+.info4 {
+  position: absolute;
+  top: 86%;
+  left: -264%;
+  height: 64%;
+  width: 270%;
+  border-bottom: 2px solid lightgray;
+  border-right: 2px solid lightgray;
+  -webkit-transform: skewX(-40deg);
+  -ms-transform: skewX(-40deg);
+  transform: skewX(-40deg); }
+
+.wrap_mercury {
+  position: absolute;
+  top: -31%;
+  right: -134%; }
+
+.info5 {
+  position: absolute;
+  top: -13%;
+  left: 77%;
+  height: 19%;
+  width: 145%;
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  -webkit-transform: skewX(-50deg);
+  -ms-transform: skewX(-50deg);
+  transform: skewX(-50deg); }
+
+.container1 {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+.bg_img {
+  height: 100%;
+  width: 100%; }
+
+.container1 a {
+  color: white; }
+
+.main_bg {
+  position: absolute;
+  width: 100%;
+  padding-top: 4%;
+  top: 0; }
+
+.main_bg img {
+  width: 100%;
+  height: 100%; }
+
+.sun {
+  position: absolute;
+  top: 16%;
+  left: 40%;
+  width: 22%; }
+
+.jupiter {
+  position: absolute;
+  top: 12%;
+  left: 28%;
+  width: 7%; }
+
+.saturn:hover img, .mars:hover img, .venera:hover img, .mercury:hover img {
+  -webkit-transform: scale(1.2, 1.2);
+  -ms-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2); }
+
+.sun:hover img, .earth:hover img {
+  -webkit-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1); }
+
+.saturn {
+  position: absolute;
+  top: 11%;
+  right: 20%;
+  width: 16%; }
+
+.venera {
+  position: absolute;
+  top: 21%;
+  right: 2%;
+  width: 3%; }
+
+.earth {
+  position: absolute;
+  bottom: 2%;
+  right: 29.5%;
+  width: 22%; }
+
+.lune {
+  position: absolute;
+  bottom: 28%;
+  right: 28%;
+  width: 4%; }
+
+.mercury {
+  position: absolute;
+  bottom: 43%;
+  left: 17%;
+  width: 9%; }
+
+.neptun {
+  position: absolute;
+  top: 7%;
+  right: 40%;
+  width: 5%; }
+
+.uran {
+  position: absolute;
+  top: 11%;
+  left: 5%;
+  width: 11%; }
+
+.mars {
+  position: absolute;
+  bottom: 33%;
+  right: 10%;
+  width: 8%; }
+
+@media screen and (max-width: 1500px) {
+  .header {
+    width: 55%; } }
+
+@media screen and (max-width: 1199px) {
+  .main_bg {
+    top: 14%; }
+  .header {
+    width: 65%; } }
+
+@media screen and (max-width: 1099px) {
+  .main_bg {
+    top: 16%; } }
+
+@media screen and (max-width: 999px) {
+  .main_bg {
+    top: 18%; }
+  .header {
+    width: 75%; } }
+
+@media screen and (max-width: 899px) {
+  .main_bg {
+    top: 20%; } }
+
+@media screen and (max-width: 799px) {
+  .main_bg {
+    top: 22%; } }
+
+@media screen and (max-width: 699px) {
+  .main_bg {
+    top: 24%; }
+  h1 {
+    font-size: 1.5rem; } }
+
+@media screen and (max-width: 599px) {
+  .main_bg {
+    top: 26%; } }
+
+@media screen and (max-width: 499px) {
+  .main_bg {
+    top: 28%; }
+  h1 {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 399px) {
+  .main_bg {
+    top: 30%; } }

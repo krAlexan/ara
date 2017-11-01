@@ -1,0 +1,108 @@
+body {
+  background-image: url(../img/mars4.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%; }
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible; }
+
+main .container {
+  padding-top: 3%;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100%; }
+
+nav .nav-wrapper {
+  padding: 0% 15%; }
+
+nav {
+  background-color: rgba(164, 125, 89, 0.5); }
+
+nav .brand-logo {
+  font: inherit; }
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font: inherit;
+  font-weight: bold; }
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  min-height: 300px;
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+
+.collapsible {
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+
+.collapsible li {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none; }
+
+.collapsible-header, .collapsible-body {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.first {
+  -webkit-border-radius: 15px 15px 0px 0px;
+          border-radius: 15px 15px 0px 0px; }
+
+.last {
+  -webkit-border-radius: 0px 0px 15px 15px;
+          border-radius: 0px 0px 15px 15px; }
+
+.last_body {
+  border: none; }
+
+.map {
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+
+ul li {
+  background-color: white; }
+
+footer ul li, .page-footer {
+  background-color: #a47d59;
+  opacity: 0.8;
+  -webkit-transition: 1.5s;
+  -o-transition: 1.5s;
+  transition: 1.5s; }
+
+footer ul li, .page-footer:hover {
+  opacity: 1; }
+
+footer .row, footer ul {
+  margin-bottom: 0; }
+
+.block1 {
+  opacity: 0.8; }
+
+@media only screen and (min-width: 1200px) {
+  nav {
+    font-size: 30px; } }

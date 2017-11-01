@@ -1,0 +1,95 @@
+img, .info, .contacts {
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s; }
+
+.animation:hover .contacts {
+  font-size: 1.8vw; }
+
+.earth:hover .contacts {
+  font-size: 1.8vw;
+  left: -10%; }
+
+.left1:hover .info {
+  border-top: 3px solid lightgray;
+  border-left: 3px solid lightgray;
+  width: 74%;
+  height: 25%; }
+
+.right1:hover .info {
+  padding-bottom: 1px;
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  height: 25%; }
+
+.saturn .info {
+  position: absolute;
+  top: -13%;
+  left: 77%;
+  height: 30%;
+  width: 72%;
+  border-top: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+  -webkit-transform: skewX(-50deg);
+  -ms-transform: skewX(-50deg);
+  transform: skewX(-50deg); }
+
+.saturn .contacts {
+  position: absolute;
+  left: 88%;
+  top: -34%;
+  color: white; }
+
+.info1 {
+  position: absolute;
+  top: 14%;
+  left: 39%;
+  height: 5%;
+  width: 10%;
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+.about_us {
+  position: absolute;
+  top: 11%;
+  left: 40%;
+  color: white; }
+
+.info2 {
+  position: absolute;
+  top: 65%;
+  left: 42%;
+  height: 5%;
+  width: 10%;
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+.tarif {
+  position: absolute;
+  top: 62%;
+  left: 43%;
+  color: white; }
+
+.info3 {
+  position: absolute;
+  top: 47%;
+  left: 70%;
+  height: 5%;
+  width: 11%;
+  border-top: 3px solid lightgray;
+  border-right: 3px solid lightgray;
+  -webkit-transform: skewX(40deg);
+  -ms-transform: skewX(40deg);
+  transform: skewX(40deg); }
+
+.projects {
+  position: absolute;
+  top: 44%;
+  left: 68%;
+  color: white; }

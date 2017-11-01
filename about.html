@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Зачем нужен сайт?</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/about.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>document.documentElement.className = 'js';</script>
+
+</head>
+<body class="demo-3 loading">
+
+  <div id="preloader">
+    <canvas id="scene"></canvas>
+  </div>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo left">ARA SPACE</a>
+      <h1>Зачем нужен сайт?</h1>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l12">
+          <!--<img src="img/1.jpg" alt="" class="photo"><div class="wrap_img"></div>-->
+          <p>Мы опытная профессиональная команда которая решит все ваши проблемы в сфере информационных технологий. Создаем веб решение любой сложности от самой идеи до ее выхода на рынок. </p>
+        </div>
+      </div>
+    </div>
+  </main>    
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Солнце‚</h5>
+          <p class="grey-text text-lighten-4">Со́лнце (астр. ☉) — единственная звезда Солнечной системы. Вокруг Солнца обращаются другие объекты этой системы: планеты и их спутники, карликовые планеты и их спутники, астероиды, метеороиды, кометы и космическая пыль.
+
+          По спектральной классификации Солнце относится к типу G2V (жёлтый карлик). Средняя плотность Солнца составляет 1,4 г/см³. Эффективная температура поверхности Солнца — 5780 кельвин. Поэтому Солнце светит почти белым светом, но прямой свет Солнца у поверхности нашей планеты приобретает некоторый жёлтый оттенок из-за более сильного рассеяния и поглощения коротковолновой части спектра атмосферой Земли (при ясном небе, вместе с голубым рассеянным светом от неба, солнечный свет вновь даёт белое освещение).</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+           <li><a class="grey-text text-lighten-3" href="index.html">Главная</a></li>
+           <li><a class="grey-text text-lighten-3" href="about.html">О нас</a></li>
+           <li><a class="grey-text text-lighten-3" href="project.html">Наши проекты</a></li>
+           <li><a class="grey-text text-lighten-3" href="contact.html">Контакты</a></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   <div class="footer-copyright">
+    <div class="container">
+      В© 2014 Copyright Text
+    </div>
+  </div>
+</footer>
+<script>
+  jQuery(document).ready(function($) {
+    $(window).load(function() {
+      setTimeout(function() {
+        $('#preloader').fadeOut('slow', function() {});
+      }, 4000);
+    });
+  });
+</script>
+<script src="js/vendors/three.min.js"></script>
+<script src="js/vendors/TweenMax.min.js"></script>
+<script src="js/demo3.js"></script>
+
+</body>
+</html>

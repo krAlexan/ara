@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  background: url(../img/bgsun.jpg) fixed;
+  -webkit-background-size: cover;
+          background-size: cover;
+  font-family: 'Lato', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible; }
+
+body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  height: 100%; }
+
+nav .nav-wrapper {
+  padding: 0% 15%; }
+
+nav .brand-logo {
+  font-size: 2rem; }
+
+nav {
+  background-color: rgba(251, 186, 65, 0.42);
+  z-index: 1; }
+
+.scroll nav {
+  background-color: #fbba41; }
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font: inherit;
+  font-weight: bold;
+  font-size: 2rem; }
+
+main .container {
+  color: #fff; }
+
+main .container .row {
+  margin-right: 0rem; }
+
+.wrap_img {
+  float: left;
+  width: 50%; }
+
+.photo {
+  width: 35%;
+  margin: 5% 5% 0% 5%;
+  float: left; }
+
+main p {
+  margin-top: 2rem;
+  font-weight: bold; }
+
+.page-footer {
+  background-color: rgba(251, 186, 65, 0.8); }
+
+footer .row, footer ul {
+  margin-bottom: 0; }
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 15px; }
+  main {
+    font-size: 30px; }
+  main .row .col {
+    padding: 5% 2.75rem 0rem; }
+  main .container {
+    padding-bottom: 7.4%; } }
+
+@media only screen and (max-width: 1199px) {
+  main {
+    font-size: 20px; }
+  main .container {
+    padding-bottom: 1%; }
+  main .row .col {
+    padding-top: 5%; } }
+
+@media only screen and (max-width: 801px) {
+  main p {
+    font-size: 15px; }
+  main .row .col {
+    padding-top: 10%; } }
+
+@media only screen and (max-width: 400px) {
+  main p {
+    font-size: 10px; }
+  main .row .col {
+    padding-top: 17%; } }

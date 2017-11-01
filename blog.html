@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>БЛОГ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+  
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/blog.css">
+  <link rel="stylesheet" href="css/demo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script>document.documentElement.className = 'js';</script>
+
+</head>
+<body class="demo-3 loading">
+  <div id="preloader">
+    <canvas id="scene"></canvas>
+  </div>
+
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+       <a href="index.html" class="brand-logo left">ARA SPACE</a>
+       <h1>БЛОГ</h1>
+     </div>
+   </nav>
+ </header>
+ <main>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col l12">
+          <div class="card">
+           <!-- <img src="img/blog.png" alt="">-->
+           <p>Наши публикации про наш опыт, также про различные ИТ новости</p>
+           <hr class="divide">
+         </div>
+       </div>
+
+       
+     </div>
+   </div>
+ </section>
+</main>
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Планета Сатурн</h5>
+        <p class="grey-text text-lighten-4">В основном Сатурн состоит из водорода, с примесями гелия и следами воды, метана, аммиака и тяжёлых элементов. Внутренняя область представляет собой относительно небольшое ядро из железа, никеля и льда, покрытое тонким слоем металлического водорода и газообразным внешним слоем. Внешняя атмосфера планеты кажется из космоса спокойной и однородной, хотя иногда на ней появляются долговременные образования.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Ссылки</h5>
+        <ul>
+         <li><a class="grey-text text-lighten-3" href="/">Главная</a></li>
+         <li><a class="grey-text text-lighten-3" href="/about">О нас</a></li>
+         <li><a class="grey-text text-lighten-3" href="/project">Наши проекты</a></li>
+         <li><a class="grey-text text-lighten-3" href="/contact">Контакты</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
+ <div class="footer-copyright">
+  <div class="container">
+   © 2017 Ara Space Разработка комерческих решений для вас и вашего бизнеса
+ </div>
+</div>
+</footer>
+
+<script>
+  jQuery(document).ready(function($) {
+    $(window).load(function() {
+      setTimeout(function() {
+        $('#preloader').fadeOut('slow', function() {});
+      }, 4000);
+    });
+  });
+</script>
+<script src="js/vendors/three.min.js"></script>
+<script src="js/vendors/TweenMax.min.js"></script>
+<script src="js/demo3.js"></script>
+
+
+</body>
+</html>
+

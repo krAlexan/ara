@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Создание Landing Page. Веб-студия Ara Space в Киеве.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/page.css">
+
+  <!-- Bootstrap -->
+</head>
+<body >
+
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo left">ARA SPACE</a>
+        <h1>Сайт Визитка</h1>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="row">
+      <div class="col s12 m12 l6 pad5">
+        <div class="card horizontal">
+          <div class="card-stacked"> 
+            <div class="card-content white-text">
+              <p>Это полноценный сайт от 5 - 10 страниц с краткой информацией о вас и/или вашей компании.</p>
+              <p>Основная идея (задача) заключается в донесении посетителям про вашу сферу деятельности</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l6">
+        <div class="card horizontal">
+          <div class="card-stacked"> 
+            <div class="card-content white-text">
+              <form class="form-horizontal">
+                <fieldset>
+                  <input type="text" style="display: none" name="Request[type]" value="landing" >
+                  <!-- Prepended text-->
+                  <div class="form-group">
+                    <div class="input-field col s12">
+                      <!--span class="input-group-addon">Ваше имя</span-->
+                      <input id="prependedtext" name="Request[fio]" class="form-control" placeholder="Ваше имя" type="text" required="">
+                    </div>
+                  </div>
+                  <!-- Prepended text-->
+                  <div class="form-group">
+                    <div class="input-field col s6">
+                      <!--span class="input-group-addon">Ваш телефон</span-->
+                      <input id="phone" name="Request[phone]" class="form-control" placeholder="Ваш телефон" type="tel" required="">
+                    </div>
+                    <div class="input-field col s6">
+                      <input id="email" name="Request[email]" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <!-- Textarea -->
+                  <div class="input-field col s12">
+                    <textarea class="materialize-textarea" id="textarea" rows="10" name="Request[message]" placeholder="Ваша коментарий" ></textarea>
+                  </div>
+                  <div class="form-group ">
+                    <button id="send " style="margin-left: 50%" name="singlebutton" class="btn btn-success ">Отправить</button>
+                  </div>
+                </fieldset>
+              </form>       
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+</main>    
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12 footer_planet" >
+        <h5 class="white-text">Про планету</h5>
+        <p class="grey-text text-lighten-4">Третья от Солнца планета. Пятая по размеру среди всех планет Солнечной системы. Она является также крупнейшей по диаметру, массе и плотности среди планет земной группы.
+
+        Иногда упоминается как Мир, Голубая планета, иногда Терра (от лат. Terra). Единственное известное человеку на данный момент тело Солнечной системы в частности и Вселенной вообще, населённое живыми организмами.</p>
+
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Ссылки</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="/">Главная</a></li>
+          <li><a class="grey-text text-lighten-3" href="/about">О нас</a></li>
+          <li><a class="grey-text text-lighten-3" href="/project">Наши проекты</a></li>
+          <li><a class="grey-text text-lighten-3" href="/contact">Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      <p>  © 2017 Ara Space Разработка комерческих решений для вас и вашего бизнеса</p>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/detect.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/service.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+.about_shop .icon-left {
+  width: 20px;
+  float: left;
+  margin-right: 11%;
+  position: relative;
+  top: 13px; }
+
+.about_shop p {
+  font-size: 16px; }
+
+.about_shop ul li {
+  font-size: 16px;
+  text-decoration: none;
+  color: white; }
+
+.about_shop ul li a {
+  color: white; }
+
+.card.horizontal {
+  height: auto; }
+
+.card1 {
+  min-height: 550px; }
